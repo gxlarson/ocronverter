@@ -10,6 +10,14 @@ Instead of writing an N×N matrix of direct converters, every format has one
 **parser** (provider → `Document`) and one **emitter** (`Document` → provider).
 Any source can then be converted to any target.
 
+## Installation
+
+```bash
+pip install ocronverter
+```
+
+Requires Python 3.10+. The library is pure Python with no runtime dependencies.
+
 ## Supported formats
 
 | Engine | Canonical name | Aliases | Data shape |
