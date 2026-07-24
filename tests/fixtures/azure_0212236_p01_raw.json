@@ -1,0 +1,1290 @@
+{
+  "apiVersion": "2024-11-30",
+  "modelId": "prebuilt-read",
+  "stringIndexType": "textElements",
+  "content": "OCS Administrative Memo #21-07 April 30, 2020 Page 2\ncontractor) by the locality from which the youth has moved. Magellan's email address is VACMCClinicalManagers@magellanhealth.com. The submission of this form should aid in correct assignment of the local Medicaid match in these instances. The Provider Address and NPI can be obtained from Business Office of the PRTF or TGH, if necessary.",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "angle": 0,
+      "width": 1275,
+      "height": 1650,
+      "unit": "pixel",
+      "words": [
+        {
+          "content": "OCS",
+          "polygon": [
+            800,
+            75,
+            855,
+            75,
+            855,
+            103,
+            800,
+            103
+          ],
+          "confidence": 0.995,
+          "span": {
+            "offset": 0,
+            "length": 3
+          }
+        },
+        {
+          "content": "Administrative",
+          "polygon": [
+            863,
+            75,
+            1019,
+            76,
+            1019,
+            102,
+            863,
+            103
+          ],
+          "confidence": 0.993,
+          "span": {
+            "offset": 4,
+            "length": 14
+          }
+        },
+        {
+          "content": "Memo",
+          "polygon": [
+            1028,
+            76,
+            1095,
+            77,
+            1095,
+            102,
+            1028,
+            102
+          ],
+          "confidence": 0.992,
+          "span": {
+            "offset": 19,
+            "length": 4
+          }
+        },
+        {
+          "content": "#21-07",
+          "polygon": [
+            1104,
+            77,
+            1184,
+            78,
+            1184,
+            101,
+            1103,
+            102
+          ],
+          "confidence": 0.996,
+          "span": {
+            "offset": 24,
+            "length": 6
+          }
+        },
+        {
+          "content": "April",
+          "polygon": [
+            1025,
+            105,
+            1076,
+            106,
+            1076,
+            133,
+            1025,
+            133
+          ],
+          "confidence": 0.996,
+          "span": {
+            "offset": 31,
+            "length": 5
+          }
+        },
+        {
+          "content": "30,",
+          "polygon": [
+            1084,
+            106,
+            1122,
+            106,
+            1122,
+            132,
+            1085,
+            132
+          ],
+          "confidence": 0.998,
+          "span": {
+            "offset": 37,
+            "length": 3
+          }
+        },
+        {
+          "content": "2020",
+          "polygon": [
+            1127,
+            106,
+            1183,
+            107,
+            1183,
+            131,
+            1127,
+            132
+          ],
+          "confidence": 0.991,
+          "span": {
+            "offset": 41,
+            "length": 4
+          }
+        },
+        {
+          "content": "Page",
+          "polygon": [
+            1102,
+            135,
+            1160,
+            135,
+            1159,
+            162,
+            1102,
+            162
+          ],
+          "confidence": 0.992,
+          "span": {
+            "offset": 46,
+            "length": 4
+          }
+        },
+        {
+          "content": "2",
+          "polygon": [
+            1168,
+            135,
+            1184,
+            135,
+            1184,
+            162,
+            1167,
+            162
+          ],
+          "confidence": 0.996,
+          "span": {
+            "offset": 51,
+            "length": 1
+          }
+        },
+        {
+          "content": "contractor)",
+          "polygon": [
+            91,
+            415,
+            212,
+            415,
+            212,
+            442,
+            91,
+            441
+          ],
+          "confidence": 0.993,
+          "span": {
+            "offset": 53,
+            "length": 11
+          }
+        },
+        {
+          "content": "by",
+          "polygon": [
+            229,
+            415,
+            255,
+            415,
+            255,
+            442,
+            229,
+            442
+          ],
+          "confidence": 0.996,
+          "span": {
+            "offset": 65,
+            "length": 2
+          }
+        },
+        {
+          "content": "the",
+          "polygon": [
+            271,
+            415,
+            306,
+            415,
+            306,
+            442,
+            271,
+            442
+          ],
+          "confidence": 0.998,
+          "span": {
+            "offset": 68,
+            "length": 3
+          }
+        },
+        {
+          "content": "locality",
+          "polygon": [
+            324,
+            415,
+            399,
+            415,
+            399,
+            442,
+            324,
+            442
+          ],
+          "confidence": 0.994,
+          "span": {
+            "offset": 72,
+            "length": 8
+          }
+        },
+        {
+          "content": "from",
+          "polygon": [
+            414,
+            415,
+            464,
+            415,
+            464,
+            442,
+            414,
+            442
+          ],
+          "confidence": 0.992,
+          "span": {
+            "offset": 81,
+            "length": 4
+          }
+        },
+        {
+          "content": "which",
+          "polygon": [
+            481,
+            415,
+            544,
+            415,
+            544,
+            442,
+            481,
+            442
+          ],
+          "confidence": 0.997,
+          "span": {
+            "offset": 86,
+            "length": 5
+          }
+        },
+        {
+          "content": "the",
+          "polygon": [
+            562,
+            415,
+            596,
+            414,
+            596,
+            442,
+            561,
+            442
+          ],
+          "confidence": 0.998,
+          "span": {
+            "offset": 92,
+            "length": 3
+          }
+        },
+        {
+          "content": "youth",
+          "polygon": [
+            613,
+            414,
+            673,
+            414,
+            673,
+            442,
+            612,
+            442
+          ],
+          "confidence": 0.994,
+          "span": {
+            "offset": 96,
+            "length": 5
+          }
+        },
+        {
+          "content": "has",
+          "polygon": [
+            691,
+            414,
+            730,
+            414,
+            730,
+            442,
+            691,
+            442
+          ],
+          "confidence": 0.995,
+          "span": {
+            "offset": 102,
+            "length": 3
+          }
+        },
+        {
+          "content": "moved.",
+          "polygon": [
+            747,
+            414,
+            827,
+            414,
+            827,
+            441,
+            747,
+            442
+          ],
+          "confidence": 0.993,
+          "span": {
+            "offset": 106,
+            "length": 6
+          }
+        },
+        {
+          "content": "Magellan's",
+          "polygon": [
+            847,
+            414,
+            964,
+            415,
+            964,
+            441,
+            846,
+            441
+          ],
+          "confidence": 0.993,
+          "span": {
+            "offset": 113,
+            "length": 10
+          }
+        },
+        {
+          "content": "email",
+          "polygon": [
+            981,
+            415,
+            1040,
+            415,
+            1039,
+            441,
+            981,
+            441
+          ],
+          "confidence": 0.995,
+          "span": {
+            "offset": 124,
+            "length": 5
+          }
+        },
+        {
+          "content": "address",
+          "polygon": [
+            1058,
+            415,
+            1145,
+            415,
+            1145,
+            440,
+            1057,
+            441
+          ],
+          "confidence": 0.994,
+          "span": {
+            "offset": 130,
+            "length": 7
+          }
+        },
+        {
+          "content": "is",
+          "polygon": [
+            1163,
+            415,
+            1183,
+            415,
+            1183,
+            440,
+            1163,
+            440
+          ],
+          "confidence": 0.998,
+          "span": {
+            "offset": 138,
+            "length": 2
+          }
+        },
+        {
+          "content": "VACMCClinicalManagers@magellanhealth.com.",
+          "polygon": [
+            91,
+            444,
+            635,
+            443,
+            634,
+            470,
+            91,
+            469
+          ],
+          "confidence": 0.865,
+          "span": {
+            "offset": 141,
+            "length": 41
+          }
+        },
+        {
+          "content": "The",
+          "polygon": [
+            640,
+            443,
+            682,
+            443,
+            681,
+            470,
+            640,
+            470
+          ],
+          "confidence": 0.996,
+          "span": {
+            "offset": 183,
+            "length": 3
+          }
+        },
+        {
+          "content": "submission",
+          "polygon": [
+            691,
+            443,
+            814,
+            443,
+            813,
+            470,
+            690,
+            470
+          ],
+          "confidence": 0.993,
+          "span": {
+            "offset": 187,
+            "length": 10
+          }
+        },
+        {
+          "content": "of",
+          "polygon": [
+            823,
+            443,
+            843,
+            443,
+            843,
+            470,
+            822,
+            470
+          ],
+          "confidence": 0.998,
+          "span": {
+            "offset": 198,
+            "length": 2
+          }
+        },
+        {
+          "content": "this",
+          "polygon": [
+            851,
+            443,
+            889,
+            443,
+            889,
+            470,
+            850,
+            470
+          ],
+          "confidence": 0.992,
+          "span": {
+            "offset": 201,
+            "length": 4
+          }
+        },
+        {
+          "content": "form",
+          "polygon": [
+            897,
+            443,
+            946,
+            443,
+            946,
+            470,
+            897,
+            470
+          ],
+          "confidence": 0.992,
+          "span": {
+            "offset": 206,
+            "length": 4
+          }
+        },
+        {
+          "content": "should",
+          "polygon": [
+            956,
+            443,
+            1028,
+            443,
+            1028,
+            470,
+            955,
+            470
+          ],
+          "confidence": 0.995,
+          "span": {
+            "offset": 211,
+            "length": 6
+          }
+        },
+        {
+          "content": "aid",
+          "polygon": [
+            1037,
+            443,
+            1068,
+            444,
+            1067,
+            469,
+            1037,
+            470
+          ],
+          "confidence": 0.995,
+          "span": {
+            "offset": 218,
+            "length": 3
+          }
+        },
+        {
+          "content": "in",
+          "polygon": [
+            1073,
+            444,
+            1096,
+            444,
+            1095,
+            469,
+            1073,
+            469
+          ],
+          "confidence": 0.998,
+          "span": {
+            "offset": 222,
+            "length": 2
+          }
+        },
+        {
+          "content": "correct",
+          "polygon": [
+            1105,
+            444,
+            1184,
+            444,
+            1184,
+            469,
+            1104,
+            469
+          ],
+          "confidence": 0.994,
+          "span": {
+            "offset": 225,
+            "length": 7
+          }
+        },
+        {
+          "content": "assignment",
+          "polygon": [
+            91,
+            472,
+            221,
+            472,
+            221,
+            499,
+            91,
+            499
+          ],
+          "confidence": 0.992,
+          "span": {
+            "offset": 233,
+            "length": 10
+          }
+        },
+        {
+          "content": "of",
+          "polygon": [
+            229,
+            472,
+            249,
+            472,
+            249,
+            499,
+            229,
+            499
+          ],
+          "confidence": 0.997,
+          "span": {
+            "offset": 244,
+            "length": 2
+          }
+        },
+        {
+          "content": "the",
+          "polygon": [
+            256,
+            472,
+            291,
+            471,
+            291,
+            498,
+            256,
+            499
+          ],
+          "confidence": 0.998,
+          "span": {
+            "offset": 247,
+            "length": 3
+          }
+        },
+        {
+          "content": "local",
+          "polygon": [
+            300,
+            471,
+            348,
+            471,
+            348,
+            498,
+            300,
+            498
+          ],
+          "confidence": 0.993,
+          "span": {
+            "offset": 251,
+            "length": 5
+          }
+        },
+        {
+          "content": "Medicaid",
+          "polygon": [
+            353,
+            471,
+            455,
+            471,
+            455,
+            498,
+            353,
+            498
+          ],
+          "confidence": 0.993,
+          "span": {
+            "offset": 257,
+            "length": 8
+          }
+        },
+        {
+          "content": "match",
+          "polygon": [
+            461,
+            471,
+            531,
+            471,
+            531,
+            498,
+            461,
+            498
+          ],
+          "confidence": 0.992,
+          "span": {
+            "offset": 266,
+            "length": 5
+          }
+        },
+        {
+          "content": "in",
+          "polygon": [
+            536,
+            471,
+            559,
+            471,
+            559,
+            498,
+            536,
+            498
+          ],
+          "confidence": 0.996,
+          "span": {
+            "offset": 272,
+            "length": 2
+          }
+        },
+        {
+          "content": "these",
+          "polygon": [
+            568,
+            471,
+            626,
+            471,
+            626,
+            498,
+            568,
+            498
+          ],
+          "confidence": 0.996,
+          "span": {
+            "offset": 275,
+            "length": 5
+          }
+        },
+        {
+          "content": "instances.",
+          "polygon": [
+            631,
+            471,
+            747,
+            471,
+            747,
+            498,
+            631,
+            498
+          ],
+          "confidence": 0.992,
+          "span": {
+            "offset": 281,
+            "length": 10
+          }
+        },
+        {
+          "content": "The",
+          "polygon": [
+            755,
+            471,
+            799,
+            471,
+            799,
+            498,
+            755,
+            498
+          ],
+          "confidence": 0.998,
+          "span": {
+            "offset": 292,
+            "length": 3
+          }
+        },
+        {
+          "content": "Provider",
+          "polygon": [
+            808,
+            471,
+            900,
+            471,
+            900,
+            498,
+            808,
+            498
+          ],
+          "confidence": 0.992,
+          "span": {
+            "offset": 296,
+            "length": 8
+          }
+        },
+        {
+          "content": "Address",
+          "polygon": [
+            907,
+            471,
+            998,
+            471,
+            998,
+            498,
+            907,
+            498
+          ],
+          "confidence": 0.992,
+          "span": {
+            "offset": 305,
+            "length": 7
+          }
+        },
+        {
+          "content": "and",
+          "polygon": [
+            1007,
+            471,
+            1047,
+            471,
+            1047,
+            498,
+            1007,
+            498
+          ],
+          "confidence": 0.996,
+          "span": {
+            "offset": 313,
+            "length": 3
+          }
+        },
+        {
+          "content": "NPI",
+          "polygon": [
+            1056,
+            472,
+            1095,
+            472,
+            1095,
+            498,
+            1056,
+            498
+          ],
+          "confidence": 0.929,
+          "span": {
+            "offset": 317,
+            "length": 3
+          }
+        },
+        {
+          "content": "can",
+          "polygon": [
+            1104,
+            472,
+            1143,
+            472,
+            1143,
+            498,
+            1104,
+            498
+          ],
+          "confidence": 0.998,
+          "span": {
+            "offset": 321,
+            "length": 3
+          }
+        },
+        {
+          "content": "be",
+          "polygon": [
+            1153,
+            472,
+            1184,
+            472,
+            1184,
+            498,
+            1153,
+            498
+          ],
+          "confidence": 0.997,
+          "span": {
+            "offset": 325,
+            "length": 2
+          }
+        },
+        {
+          "content": "obtained",
+          "polygon": [
+            91,
+            501,
+            188,
+            500,
+            187,
+            527,
+            90,
+            527
+          ],
+          "confidence": 0.993,
+          "span": {
+            "offset": 328,
+            "length": 8
+          }
+        },
+        {
+          "content": "from",
+          "polygon": [
+            196,
+            500,
+            244,
+            500,
+            244,
+            527,
+            195,
+            527
+          ],
+          "confidence": 0.989,
+          "span": {
+            "offset": 337,
+            "length": 4
+          }
+        },
+        {
+          "content": "Business",
+          "polygon": [
+            255,
+            500,
+            354,
+            499,
+            353,
+            527,
+            254,
+            527
+          ],
+          "confidence": 0.994,
+          "span": {
+            "offset": 342,
+            "length": 8
+          }
+        },
+        {
+          "content": "Office",
+          "polygon": [
+            362,
+            499,
+            426,
+            499,
+            425,
+            527,
+            361,
+            527
+          ],
+          "confidence": 0.993,
+          "span": {
+            "offset": 351,
+            "length": 6
+          }
+        },
+        {
+          "content": "of",
+          "polygon": [
+            434,
+            499,
+            454,
+            499,
+            453,
+            527,
+            433,
+            527
+          ],
+          "confidence": 0.995,
+          "span": {
+            "offset": 358,
+            "length": 2
+          }
+        },
+        {
+          "content": "the",
+          "polygon": [
+            461,
+            499,
+            496,
+            499,
+            495,
+            528,
+            460,
+            527
+          ],
+          "confidence": 0.998,
+          "span": {
+            "offset": 361,
+            "length": 3
+          }
+        },
+        {
+          "content": "PRTF",
+          "polygon": [
+            504,
+            499,
+            568,
+            500,
+            567,
+            528,
+            503,
+            528
+          ],
+          "confidence": 0.989,
+          "span": {
+            "offset": 365,
+            "length": 4
+          }
+        },
+        {
+          "content": "or",
+          "polygon": [
+            576,
+            500,
+            598,
+            500,
+            597,
+            528,
+            575,
+            528
+          ],
+          "confidence": 0.993,
+          "span": {
+            "offset": 370,
+            "length": 2
+          }
+        },
+        {
+          "content": "TGH,",
+          "polygon": [
+            604,
+            500,
+            661,
+            500,
+            660,
+            528,
+            603,
+            528
+          ],
+          "confidence": 0.989,
+          "span": {
+            "offset": 373,
+            "length": 4
+          }
+        },
+        {
+          "content": "if",
+          "polygon": [
+            667,
+            500,
+            681,
+            500,
+            680,
+            528,
+            666,
+            528
+          ],
+          "confidence": 0.995,
+          "span": {
+            "offset": 378,
+            "length": 2
+          }
+        },
+        {
+          "content": "necessary.",
+          "polygon": [
+            686,
+            500,
+            812,
+            502,
+            812,
+            529,
+            686,
+            528
+          ],
+          "confidence": 0.993,
+          "span": {
+            "offset": 381,
+            "length": 10
+          }
+        }
+      ],
+      "lines": [
+        {
+          "content": "OCS Administrative Memo #21-07",
+          "polygon": [
+            799,
+            75,
+            1183,
+            75,
+            1183,
+            102,
+            799,
+            102
+          ],
+          "spans": [
+            {
+              "offset": 0,
+              "length": 30
+            }
+          ]
+        },
+        {
+          "content": "April 30, 2020",
+          "polygon": [
+            1024,
+            105,
+            1182,
+            105,
+            1182,
+            132,
+            1024,
+            132
+          ],
+          "spans": [
+            {
+              "offset": 31,
+              "length": 14
+            }
+          ]
+        },
+        {
+          "content": "Page 2",
+          "polygon": [
+            1101,
+            135,
+            1183,
+            135,
+            1183,
+            161,
+            1101,
+            162
+          ],
+          "spans": [
+            {
+              "offset": 46,
+              "length": 6
+            }
+          ]
+        },
+        {
+          "content": "contractor) by the locality from which the youth has moved. Magellan's email address is",
+          "polygon": [
+            91,
+            414,
+            1182,
+            414,
+            1182,
+            440,
+            91,
+            441
+          ],
+          "spans": [
+            {
+              "offset": 53,
+              "length": 87
+            }
+          ]
+        },
+        {
+          "content": "VACMCClinicalManagers@magellanhealth.com. The submission of this form should aid in correct",
+          "polygon": [
+            90,
+            443,
+            1183,
+            443,
+            1183,
+            469,
+            90,
+            469
+          ],
+          "spans": [
+            {
+              "offset": 141,
+              "length": 91
+            }
+          ]
+        },
+        {
+          "content": "assignment of the local Medicaid match in these instances. The Provider Address and NPI can be",
+          "polygon": [
+            90,
+            471,
+            1183,
+            471,
+            1183,
+            497,
+            90,
+            498
+          ],
+          "spans": [
+            {
+              "offset": 233,
+              "length": 94
+            }
+          ]
+        },
+        {
+          "content": "obtained from Business Office of the PRTF or TGH, if necessary.",
+          "polygon": [
+            90,
+            499,
+            811,
+            499,
+            811,
+            528,
+            90,
+            527
+          ],
+          "spans": [
+            {
+              "offset": 328,
+              "length": 63
+            }
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "offset": 0,
+          "length": 391
+        }
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "spans": [
+        {
+          "offset": 0,
+          "length": 52
+        }
+      ],
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            799,
+            75,
+            1183,
+            75,
+            1183,
+            162,
+            799,
+            162
+          ]
+        }
+      ],
+      "content": "OCS Administrative Memo #21-07 April 30, 2020 Page 2"
+    },
+    {
+      "spans": [
+        {
+          "offset": 53,
+          "length": 338
+        }
+      ],
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            90,
+            414,
+            1183,
+            414,
+            1183,
+            528,
+            90,
+            528
+          ]
+        }
+      ],
+      "content": "contractor) by the locality from which the youth has moved. Magellan's email address is VACMCClinicalManagers@magellanhealth.com. The submission of this form should aid in correct assignment of the local Medicaid match in these instances. The Provider Address and NPI can be obtained from Business Office of the PRTF or TGH, if necessary."
+    }
+  ],
+  "styles": [],
+  "contentFormat": "text"
+}
