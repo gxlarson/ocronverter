@@ -11,6 +11,10 @@ __pycache__/
 .venv/
 venv/
 
+# Build / distribution artifacts
+build/
+dist/
+
 # Common OCR test inputs/outputs (uncomment if you don't want them tracked)
 # *.png
 # *.jpg
