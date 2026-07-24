@@ -27,7 +27,7 @@ def _dims(page: Page):
     return (page.width or DEFAULT_PAGE[0], page.height or DEFAULT_PAGE[1])
 
 
-def _bbox(geom: Geometry, w, h):
+def _bbox(geom: Geometry | None, w, h):
     if geom is None:
         return (0, 0, int(round(w)), int(round(h)))
     b = geom.bbox
@@ -42,7 +42,9 @@ def _bbox_str(geom, w, h):
 
 def _paragraph_groups(lines):
     """Group consecutive lines sharing par_id, preserving order."""
-    groups, cur, cur_key = [], [], object()
+    groups: list = []
+    cur: list = []
+    cur_key: object = object()
     for line in lines:
         key = line.provider_meta.get("par_id")
         if cur and key != cur_key:

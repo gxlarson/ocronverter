@@ -92,10 +92,11 @@ def parse(data) -> Document:
     doc = Document(source_format=SOURCE_FORMAT)
 
     # Page dimensions from the level-1 row (there may be several pages).
-    doc_pages, cur = [], None
+    doc_pages: list[Page] = []
+    cur: Page | None = None
     page_dims = (0, 0)
-    block = None
-    line = None
+    block: Block | None = None
+    line: Line | None = None
 
     for row in rows:
         level = _i(row, "level")
@@ -106,8 +107,12 @@ def parse(data) -> Document:
                        id=f"page-{_i(row, 'page_num')}")
             doc_pages.append(cur)
             block = line = None
+            continue
 
-        elif level == LEVEL_BLOCK:
+        if cur is None:
+            continue  # rows before the first page row (malformed) — skip
+
+        if level == LEVEL_BLOCK:
             block = Block(
                 geometry=_geom(row, *page_dims),
                 provider_meta={"block_num": _i(row, "block_num")},

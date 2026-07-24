@@ -9,6 +9,8 @@ same-format round-trip preserves both vertex forms.
 
 from __future__ import annotations
 
+from typing import Any
+
 from ..model import Break, Document, Geometry, Page
 
 # neutral Break -> Vision BreakType
@@ -34,14 +36,15 @@ def emit(doc: Document, wrap_response: bool = True) -> dict:
 
 
 def _page(page: Page) -> dict:
-    out = {"width": page.width, "height": page.height, "blocks": []}
+    out: dict[str, Any] = {"width": page.width, "height": page.height,
+                           "blocks": []}
     if page.confidence is not None:
         out["confidence"] = page.confidence
     if page.provider_meta.get("property"):
         out["property"] = page.provider_meta["property"]
 
     for block in page.blocks:
-        vblock = {
+        vblock: dict[str, Any] = {
             "blockType": block.provider_meta.get("blockType", "TEXT"),
             "paragraphs": [],
         }
@@ -50,19 +53,19 @@ def _page(page: Page) -> dict:
             vblock["confidence"] = block.confidence
 
         for line in block.lines:
-            vpar = {"words": []}
+            vpar: dict[str, Any] = {"words": []}
             _put_box(vpar, line.geometry, page)
             if line.confidence is not None:
                 vpar["confidence"] = line.confidence
 
             for word in line.words:
-                vword = {"symbols": []}
+                vword: dict[str, Any] = {"symbols": []}
                 _put_box(vword, word.geometry, page)
                 if word.confidence is not None:
                     vword["confidence"] = word.confidence
 
                 for sym in word.symbols:
-                    vsym = {"text": sym.text}
+                    vsym: dict[str, Any] = {"text": sym.text}
                     _put_box(vsym, sym.geometry, page)
                     if sym.confidence is not None:
                         vsym["confidence"] = sym.confidence
@@ -97,10 +100,11 @@ def _put_break(vsym: dict, sym) -> None:
         vsym["property"] = {"detectedBreak": {"type": _BREAK_MAP[sym.break_after]}}
 
 
-def _put_box(target: dict, geom: Geometry, page: Page) -> None:
+def _put_box(target: dict, geom: Geometry | None, page: Page) -> None:
     if geom is None:
         return
-    box = {"normalizedVertices": [{"x": p.x, "y": p.y} for p in geom.polygon]}
+    box: dict[str, Any] = {
+        "normalizedVertices": [{"x": p.x, "y": p.y} for p in geom.polygon]}
     if page.width and page.height:
         box["vertices"] = [
             {"x": round(p.x * page.width), "y": round(p.y * page.height)}

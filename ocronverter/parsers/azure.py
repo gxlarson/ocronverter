@@ -95,7 +95,7 @@ def parse(response: dict) -> Document:
             line_metas.append((line, start, end))
 
         # 2) Assign each word to the line whose span range contains it.
-        leftover_words = []
+        leftover_words: list = []
         for wz in apage.get("words", []):
             w_off, _ = _span_range(wz)
             word = Word(text=wz.get("content", ""),

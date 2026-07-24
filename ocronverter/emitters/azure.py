@@ -26,7 +26,7 @@ def _dims(page: Page):
     return DEFAULT_PAGE
 
 
-def _poly(geom: Geometry, w, h) -> list:
+def _poly(geom: Geometry | None, w, h) -> list:
     """Flat [x1,y1,...,x4,y4] in page units from a normalized Geometry."""
     if geom is None:
         return []
@@ -46,12 +46,13 @@ def emit(doc: Document) -> dict:
         offset[0] += len(text)
         return {"offset": start, "length": len(text)}
 
-    pages_out = []
-    paragraphs_out = []
+    pages_out: list = []
+    paragraphs_out: list = []
 
     for page in doc.pages:
         w, h, unit = _dims(page)
-        words_out, lines_out = [], []
+        words_out: list = []
+        lines_out: list = []
 
         for block in page.blocks:
             block_start = offset[0]

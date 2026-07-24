@@ -27,7 +27,7 @@ def _dims(page: Page):
     return (page.width or DEFAULT_PAGE[0], page.height or DEFAULT_PAGE[1])
 
 
-def _polygon(geom: Geometry, w, h):
+def _polygon(geom: Geometry | None, w, h):
     if geom is None:
         return []
     pts = geom.polygon or polygon_from_bbox(geom.bbox)

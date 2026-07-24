@@ -21,6 +21,8 @@ same-format and Textract->Vision trips are left untouched.
 from __future__ import annotations
 
 import json
+from collections.abc import Callable
+from typing import Any
 
 from . import synth
 from .emitters import azure as _az_emit
@@ -41,8 +43,9 @@ from .parsers import textract as _tx_parse
 # markup string for hOCR.
 JsonLike = dict | list | str
 
-# canonical name -> (parser, emitter). emitter is a callable(doc, **opts)->dict.
-_REGISTRY = {
+# canonical name -> (parser, emitter). Parser takes provider data (dict/list/
+# str) -> Document; emitter takes (doc, **opts) -> provider output (dict/list/str).
+_REGISTRY: dict[str, tuple[Callable[[Any], Document], Callable[..., Any]]] = {
     "google_vision": (_gv_parse.parse, _gv_emit.emit),
     "textract": (_tx_parse.parse, _tx_emit.emit),
     "tesseract": (_ts_parse.parse, _ts_emit.emit),
@@ -137,7 +140,7 @@ def convert(
     *,
     split_lines: bool | str = "auto",
     as_json: bool = False,
-    indent: int = None,
+    indent: int | None = None,
     **emit_opts,
 ):
     """Parse `data` from source_format and emit as target_format.

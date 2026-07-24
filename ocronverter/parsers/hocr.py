@@ -27,6 +27,7 @@ stack, so void tags in <head> (<meta>, <link>) can't unbalance nesting.
 from __future__ import annotations
 
 from html.parser import HTMLParser
+from typing import Any
 
 from ..geometry import geometry_from_bbox
 from ..model import BBox, Block, Break, Document, Line, Page, Word
@@ -59,15 +60,15 @@ class _HOCRTree(HTMLParser):
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.root = {"class": "", "id": None, "props": {},
-                     "children": [], "text": ""}
-        self.stack = [self.root]
+        self.root: dict[str, Any] = {"class": "", "id": None, "props": {},
+                                     "children": [], "text": ""}
+        self.stack: list[dict[str, Any]] = [self.root]
 
     def handle_starttag(self, tag, attrs):
         if tag not in _CONTAINER_TAGS:
             return
         a = dict(attrs)
-        node = {
+        node: dict[str, Any] = {
             "class": a.get("class", "") or "",
             "id": a.get("id"),
             "props": _parse_title(a.get("title", "")),

@@ -36,7 +36,7 @@ Repository = "https://github.com/gxlarson/ocronverter"
 Issues = "https://github.com/gxlarson/ocronverter/issues"
 
 [project.optional-dependencies]
-dev = ["ruff", "pytest", "build", "twine"]
+dev = ["ruff", "mypy", "pytest", "build", "twine"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["ocronverter"]
@@ -54,6 +54,14 @@ select = ["E", "W", "F", "I", "UP", "B", "C4"]
 # Test fixtures carry inherently long data lines (hOCR markup, coordinate
 # arrays) that can't be wrapped without changing the fixture.
 "tests/**" = ["E501"]
+
+[tool.mypy]
+python_version = "3.10"
+files = ["ocronverter"]
+check_untyped_defs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_unused_configs = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

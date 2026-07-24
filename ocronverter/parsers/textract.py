@@ -25,7 +25,7 @@ from ..synth import wrap_lines_in_block
 SOURCE_FORMAT = "textract"
 
 
-def _geom(geometry: dict) -> Geometry | None:
+def _geom(geometry: dict | None) -> Geometry | None:
     if not geometry:
         return None
     bb = geometry.get("BoundingBox") or {}
@@ -47,7 +47,7 @@ def _conf(block: dict) -> float | None:
 
 
 def _children(block: dict, by_id: dict) -> list[dict]:
-    out = []
+    out: list[dict] = []
     for rel in block.get("Relationships", []) or []:
         if rel.get("Type") == "CHILD":
             out.extend(by_id[i] for i in rel.get("Ids", []) if i in by_id)

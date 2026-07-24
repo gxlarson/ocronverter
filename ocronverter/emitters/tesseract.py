@@ -33,7 +33,7 @@ def _dims(page: Page):
     return w, h
 
 
-def _px(geom: Geometry, w, h):
+def _px(geom: Geometry | None, w, h):
     """(left, top, width, height) in pixels from a normalized Geometry."""
     if geom is None:
         return 0, 0, w, h
@@ -44,7 +44,9 @@ def _px(geom: Geometry, w, h):
 
 def _paragraph_groups(lines):
     """Group consecutive lines by par_num, preserving order."""
-    groups, cur, cur_key = [], [], object()
+    groups: list = []
+    cur: list = []
+    cur_key: object = object()
     for line in lines:
         key = line.provider_meta.get("par_num", 1)
         if not cur or key == cur_key:
@@ -59,7 +61,7 @@ def _paragraph_groups(lines):
 
 
 def emit(doc: Document) -> dict:
-    cols = {c: [] for c in _COLUMNS}
+    cols: dict[str, list] = {c: [] for c in _COLUMNS}
 
     def row(level, page_num, block_num, par_num, line_num, word_num,
             box, conf, text):
