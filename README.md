@@ -1,5 +1,11 @@
 # ocronverter
 
+[![PyPI](https://img.shields.io/pypi/v/ocronverter.svg)](https://pypi.org/project/ocronverter/)
+[![Python versions](https://img.shields.io/pypi/pyversions/ocronverter.svg)](https://pypi.org/project/ocronverter/)
+[![CI](https://github.com/gxlarson/ocronverter/actions/workflows/ci.yml/badge.svg)](https://github.com/gxlarson/ocronverter/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/pypi/l/ocronverter.svg)](https://github.com/gxlarson/ocronverter/blob/main/LICENSE)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+
 Convert between OCR output formats through a single neutral intermediate model.
 
 ```
