@@ -102,3 +102,7 @@ Each format has a round-trip test (provider → `Document` → provider) plus
 cross-format bridge tests. Tests are stdlib-only and need no OCR binaries,
 except `test_real_tesseract`, which runs only if the `tesseract` binary and PIL
 are installed.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
